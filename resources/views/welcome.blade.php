@@ -42,9 +42,9 @@
                         >
                         </br></div>
                         <!-- Title -->
-                        <h1 style="font-size: 3rem;" class="text-white font-bold uppercase tracking-tight 
-                            drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]
-                            transform transition-all duration-300 hover:scale-105">
+                        <h1 style="font-size: 3rem;" class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-500 
+        uppercase tracking-wide drop-shadow-lg 
+        transform transition-all duration-500 ease-in-out hover:scale-110 hover:text-transparent hover:bg-clip-text">
                             Task Management
                         </h1>
 
