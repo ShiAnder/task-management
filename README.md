@@ -33,6 +33,7 @@ A Laravel-based task management system with user authentication, task CRUD opera
 
 
 5. Run migrations and seed the database
+    php artisan migrate --seed
 
-6. Run application
+7. Run application
     php artisan serve
