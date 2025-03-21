@@ -22,7 +22,7 @@ class TaskController extends Controller
      */
     public function index()
     {
-        $tasks = $this->taskRepository->getAllForUser(auth()->id());
+        $tasks = $this->taskRepository->getAllForUser(auth()->id(), 5); // 10 tasks per page
         return view('tasks.index', compact('tasks'));
     }
 
